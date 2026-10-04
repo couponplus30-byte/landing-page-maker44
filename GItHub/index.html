@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PlayStation 5 | المستقبل بين يديك - اطلب الآن</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: { tajawal: ['Tajawal', 'sans-serif'] },
+      colors: {
+        psblue: '#0070D1',
+        psdark: '#0A0E1A',
+        psnavy: '#0F172A',
+        pslight: '#E6F0FF'
+      }
+    }
+  }
+}
+</script>
+<style>
+*{font-family:'Tajawal',sans-serif}
+html{scroll-behavior:smooth}
+.hero-gradient{background: radial-gradient(ellipse at 30% 20%, rgba(0,112,209,0.25) 0%, transparent 50%), radial-gradient(ellipse at 80% 80%, rgba(0,212,255,0.15) 0%, transparent 50%), linear-gradient(180deg, #0A0E1A 0%, #0F172A 100%);}
+.glass{background: rgba(255,255,255,0.06); backdrop-filter: blur(16px); border:1px solid rgba(255,255,255,0.08);}
+.neon-glow{box-shadow:0 0 40px rgba(0,112,209,0.5), 0 0 80px rgba(0,112,209,0.2);}
+.text-gradient{background: linear-gradient(90deg, #00D4FF 0%, #0070D1 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent;}
+.card-hover{transition:all 0.4s cubic-bezier(0.4,0,0.2,1)}
+.card-hover:hover{transform:translateY(-8px); box-shadow:0 20px 40px rgba(0,0,0,0.4)}
+.shine{position:relative; overflow:hidden}
+.shine::after{content:''; position:absolute; top:0; left:-100%; width:100%; height:100%; background:linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent); transition:left 0.6s}
+.shine:hover::after{left:100%}
+@keyframes float{0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)}}
+.float{animation:float 5s ease-in-out infinite}
+@keyframes pulse-glow{0%,100%{box-shadow:0 0 20px rgba(0,112,209,0.6)} 50%{box-shadow:0 0 40px rgba(0,112,209,0.9)}}
+.pulse-glow{animation:pulse-glow 2s infinite}
+</style>
+</head>
+<body class="bg-psdark text-white overflow-x-hidden">
+
+<nav class="fixed top-0 w-full z-50 glass">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-[72px]">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+<i class="fab fa-playstation text-psblue text-2xl"></i>
+</div>
+<span class="font-black text-xl tracking-widest">PlayStation<span class="text-psblue">5</span></span>
+<span class="hidden md:inline text-xs bg-white/10 px-3 py-1 rounded-full border border-white/10 mr-2">الجيل الجديد</span>
+</div>
+<div class="hidden lg:flex items-center gap-8 text-sm font-medium">
+<a href="#features" class="hover:text-psblue transition">المميزات</a>
+<a href="#games" class="hover:text-psblue transition">الألعاب</a>
+<a href="#bundles" class="hover:text-psblue transition">العروض</a>
+<a href="#faq" class="hover:text-psblue transition">الأسئلة</a>
+</div>
+<div class="flex items-center gap-3">
+<div class="hidden md:flex items-center gap-2 text-xs bg-emerald-500/15 text-emerald-400 px-3 py-1.5 rounded-full border border-emerald-500/20">
+<span class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
+متوفر الآن - شحن مجاني
+</div>
+<a href="#bundles" class="hidden sm:inline-flex bg-psblue hover:bg-blue-600 text-white px-6 py-2.5 rounded-full font-bold text-sm transition shadow-lg shadow-blue-600/20">اطلب الآن</a>
+<button id="menuBtn" class="lg:hidden w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
+<i class="fas fa-bars"></i>
+</button>
+</div>
+</div>
+</div>
+<div id="mobileMenu" class="hidden lg:hidden border-t border-white/10 bg-psnavy">
+<div class="px-4 py-6 space-y-4">
+<a href="#features" class="block py-2">المميزات</a>
+<a href="#games" class="block py-2">الألعاب الحصرية</a>
+<a href="#bundles" class="block py-2">الباقات والعروض</a>
+<a href="#faq" class="block py-2">الأسئلة الشائعة</a>
+<a href="#bundles" class="block bg-psblue text-center py-3 rounded-full font-bold mt-4">اطلب PlayStation 5 الآن</a>
+</div>
+</div>
+</nav>
+
+<section class="hero-gradient pt-[92px] pb-10 lg:pb-16 relative overflow-hidden">
+<div class="absolute inset-0 pointer-events-none">
+<div class="absolute top-20 right-10 w-72 h-72 bg-psblue/20 rounded-full blur-[120px]"></div>
+<div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-to-t from-psblue/10 to-transparent"></div>
+</div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+<div class="grid lg:grid-cols-2 gap-10 items-center">
+<div class="text-center lg:text-right order-2 lg:order-1">
+<div class="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 text-xs mb-6">
+<span class="bg-red-500 text-white px-2 py-0.5 rounded-full font-bold">عرض محدود</span>
+<span>خصم 18% + لعبتين هدية + ضمان سنتين</span>
+</div>
+<h1 class="text-[32px] sm:text-[42px] lg:text-[54px] font-black leading-[1.1] mb-4">
+<span class="text-gradient">العب بلا حدود</span><br>
+<span class="text-white">قوة لا تُصدق</span><br>
+<span class="text-white/60 text-[28px] lg:text-[36px] font-light">بسرعة البرق</span>
+</h1>
+<p class="text-white/60 text-[15px] lg:text-[17px] leading-7 max-w-xl mx-auto lg:mx-0 mb-8">
+انغمس في عوالم لم تتخيلها من قبل. مع معالج مخصص، وSSD فائق السرعة، وذراع تحكم DualSense ثوري. هذه ليست مجرد منصة ألعاب، إنها بوابتك للمستقبل.
+</p>
+<div class="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start mb-8">
+<a href="#bundles" class="bg-white text-psdark px-8 py-4 rounded-full font-black text-[15px] flex items-center justify-center gap-3 hover:bg-gray-100 transition shine">
+<i class="fas fa-bolt text-psblue"></i>
+اطلب الآن - الدفع عند الاستلام
+</a>
+<button onclick="document.getElementById('videoModal').classList.remove('hidden')" class="glass px-8 py-4 rounded-full font-bold text-sm flex items-center justify-center gap-2 hover:bg-white/10 transition">
+<span class="w-8 h-8 bg-white rounded-full flex items-center justify-center"><i class="fas fa-play text-psdark text-xs mr-0.5"></i></span>
+شاهد الإعلان الرسمي
+</button>
+</div>
+<div class="flex flex-wrap items-center justify-center lg:justify-start gap-6 text-xs">
+<div class="flex items-center gap-2">
+<div class="flex -space-x-2 space-x-reverse">
+<img src="https://i.pravatar.cc/100?img=11" class="w-7 h-7 rounded-full border-2 border-psdark">
+<img src="https://i.pravatar.cc/100?img=32" class="w-7 h-7 rounded-full border-2 border-psdark">
+<img src="https://i.pravatar.cc/100?img=15" class="w-7 h-7 rounded-full border-2 border-psdark">
+</div>
+<div class="text-right">
+<div class="flex text-amber-400 text-[11px]"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+<span class="text-white/70">+12,847 عميل سعيد</span>
+</div>
+</div>
+<div class="h-8 w-px bg-white/10 hidden sm:block"></div>
+<div class="flex items-center gap-3 text-white/70">
+<span class="flex items-center gap-1.5"><i class="fas fa-truck text-emerald-400"></i> شحن مجاني</span>
+<span class="flex items-center gap-1.5"><i class="fas fa-shield-halved text-psblue"></i> ضمان سنتين</span>
+</div>
+</div>
+<div class="mt-8 glass rounded-2xl p-4 flex items-center justify-between max-w-md mx-auto lg:mx-0">
+<div class="text-right">
+<p class="text-xs text-white/50">ينتهي العرض خلال</p>
+<div id="countdown" class="flex gap-2 mt-1 font-black text-lg tabular-nums">
+<span class="bg-white text-psdark px-2 py-1 rounded-lg" id="hours">11</span><span class="py-1">:</span><span class="bg-white text-psdark px-2 py-1 rounded-lg" id="minutes">42</span><span class="py-1">:</span><span class="bg-white text-psdark px-2 py-1 rounded-lg" id="seconds">18</span>
+</div>
+</div>
+<div class="text-left">
+<p class="text-xs text-white/50">الكمية المتبقية</p>
+<div class="w-28 h-2 bg-white/10 rounded-full mt-2 overflow-hidden">
+<div class="h-full bg-gradient-to-r from-red-500 to-amber-500 rounded-full" style="width:23%"></div>
+</div>
+<p class="text-xs text-amber-400 mt-1 font-bold">باقي 7 أجهزة فقط!</p>
+</div>
+</div>
+</div>
+<div class="relative order-1 lg:order-2 flex justify-center">
+<div class="absolute inset-0 bg-gradient-to-t from-psblue/20 via-transparent to-transparent blur-3xl rounded-full"></div>
+<img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=700&h=700&fit=crop" alt="PlayStation 5 Console" class="relative w-[320px] sm:w-[420px] lg:w-[560px] float drop-shadow-[0_40px_80px_rgba(0,0,0,0.6)] rounded-[32px] object-cover">
+<div class="absolute -bottom-2 sm:bottom-6 -right-2 sm:right-6 glass rounded-2xl p-3 sm:p-4 flex items-center gap-3">
+<img src="https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?w=80&h=80&fit=crop" class="w-12 h-12 rounded-xl object-cover">
+<div class="text-right">
+<p class="text-xs text-white/60">DualSense</p>
+<p class="font-bold text-sm">تحكم يشعر بك</p>
+<p class="text-[11px] text-emerald-400">اهتزازات لمسية + محفزات تكيفية</p>
+</div>
+</div>
+<div class="absolute top-10 -left-2 sm:left-0 bg-white text-psdark rounded-2xl px-4 py-3 shadow-2xl">
+<p class="text-[11px] text-gray-500">يبدأ من</p>
+<p class="font-black text-xl leading-none">14,999 <span class="text-xs font-bold">ج.م</span></p>
+<p class="text-[11px] text-red-500 line-through">18,499 ج.م</p>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-3 gap-3 mt-10 max-w-3xl mx-auto">
+<div class="glass rounded-2xl p-4 text-center">
+<p class="text-2xl font-black">825<span class="text-sm font-normal">GB</span></p>
+<p class="text-[11px] text-white/50">SSD فائق السرعة</p>
+</div>
+<div class="glass rounded-2xl p-4 text-center border border-psblue/30 bg-psblue/10">
+<p class="text-2xl font-black">4K <span class="text-psblue">120Hz</span></p>
+<p class="text-[11px] text-white/50">جرافيك خيالي</p>
+</div>
+<div class="glass rounded-2xl p-4 text-center">
+<p class="text-2xl font-black">3D</p>
+<p class="text-[11px] text-white/50">صوت ثلاثي الأبعاد</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="features" class="py-16 lg:py-20 bg-[#0B1020] relative">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<span class="text-psblue text-xs font-black tracking-[0.3em]">لماذا PS5 ؟</span>
+<h2 class="text-[28px] lg:text-[38px] font-black mt-3 leading-tight">تكنولوجيا ستجعلك <span class="text-gradient">تنسى الواقع</span></h2>
+<p class="text-white/50 text-sm mt-3">كل تفصيلة صُممت لتضعك في قلب الحدث، وليس أمام الشاشة فقط.</p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="bg-white/[0.04] border border-white/5 rounded-[24px] p-6 card-hover group">
+<div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-400 flex items-center justify-center mb-5 group-hover:scale-110 transition">
+<i class="fas fa-bolt text-white"></i>
+</div>
+<h3 class="font-black text-[17px] mb-2">SSD بسرعة البرق</h3>
+<p class="text-white/50 text-[13px] leading-6">تحميل الألعاب في ثوانٍ. انتقل من عالم لآخر بدون شاشات انتظار. 5.5GB في الثانية.</p>
+<div class="mt-4 flex items-center gap-2 text-xs text-psblue font-bold">
+<span>أسرع 100 مرة من PS4</span><i class="fas fa-arrow-left text-[10px]"></i>
+</div>
+</div>
+<div class="bg-white/[0.04] border border-white/5 rounded-[24px] p-6 card-hover group">
+<div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-violet-500 to-fuchsia-500 flex items-center justify-center mb-5 group-hover:scale-110 transition">
+<i class="fas fa-gamepad text-white"></i>
+</div>
+<h3 class="font-black text-[17px] mb-2">ذراع DualSense™</h3>
+<p class="text-white/50 text-[13px] leading-6">ستشعر بالمطر على يديك، ومقاومة الزناد عند سحب القوس. حواسك ستصدق اللعبة.</p>
+<div class="mt-4 flex items-center gap-2 text-xs text-violet-400 font-bold">
+<span>اهتزازات لمسية ثورية</span><i class="fas fa-arrow-left text-[10px]"></i>
+</div>
+</div>
+<div class="bg-white/[0.04] border border-white/5 rounded-[24px] p-6 card-hover group">
+<div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-400 flex items-center justify-center mb-5 group-hover:scale-110 transition">
+<i class="fas fa-eye text-white"></i>
+</div>
+<h3 class="font-black text-[17px] mb-2">جرافيك 4K حقيقي</h3>
+<p class="text-white/50 text-[13px] leading-6">تتبع الأشعة، 120 إطار في الثانية، HDR. كل شعرة، كل قطرة ماء، تبدو حقيقية.</p>
+<div class="mt-4 flex items-center gap-2 text-xs text-emerald-400 font-bold">
+<span>قوة 10.28 تيرافلوب</span><i class="fas fa-arrow-left text-[10px]"></i>
+</div>
+</div>
+<div class="bg-white/[0.04] border border-white/5 rounded-[24px] p-6 card-hover group">
+<div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-500 flex items-center justify-center mb-5 group-hover:scale-110 transition">
+<i class="fas fa-headphones text-white"></i>
+</div>
+<h3 class="font-black text-[17px] mb-2">صوت ثلاثي الأبعاد</h3>
+<p class="text-white/50 text-[13px] leading-6">اسمع خطوات العدو خلفك، والرياح فوقك. حتى بسماعة عادية ستدخل عالماً آخر.</p>
+<div class="mt-4 flex items-center gap-2 text-xs text-amber-400 font-bold">
+<span>Tempest 3D AudioTech</span><i class="fas fa-arrow-left text-[10px]"></i>
+</div>
+</div>
+</div>
+<div class="mt-8 glass rounded-[24px] p-6 lg:p-8 flex flex-col lg:flex-row items-center gap-6">
+<img src="https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=400&h=260&fit=crop" alt="DualSense" class="w-full lg:w-[340px] h-[220px] object-cover rounded-2xl">
+<div class="flex-1 text-center lg:text-right">
+<span class="inline-flex items-center gap-2 bg-amber-500 text-psdark text-xs font-black px-3 py-1 rounded-full">جديد كلياً</span>
+<h3 class="text-2xl font-black mt-3">DualSense Edge - للمحترفين</h3>
+<p class="text-white/60 text-sm leading-6 mt-2">أزرار قابلة للتخصيص، عمر بطارية أطول، وتحكم لا يضاهى. ارتقِ بلعبك إلى مستوى الرياضات الإلكترونية.</p>
+<div class="flex flex-wrap gap-3 justify-center lg:justify-start mt-5">
+<span class="bg-white/10 px-3 py-1.5 rounded-full text-xs">أزرار خلفية قابلة للبرمجة</span>
+<span class="bg-white/10 px-3 py-1.5 rounded-full text-xs">تغيير القطع بسهولة</span>
+<span class="bg-white/10 px-3 py-1.5 rounded-full text-xs">حقيبة حمل فاخرة</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="games" class="py-16 bg-psdark">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-4 mb-8">
+<div class="text-right">
+<span class="text-psblue font-black text-xs tracking-widest">حصريات لا تجدها إلا هنا</span>
+<h2 class="text-[28px] lg:text-[36px] font-black mt-2">ألعاب <span class="text-white/40">ستخطف أنفاسك</span></h2>
+</div>
+<p class="text-white/50 text-sm max-w-md">أكثر من 4000 لعبة متوافقة، وعشرات الحصريات التي فازت بجوائز لعبة العام.</p>
+</div>
+<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="group relative rounded-[20px] overflow-hidden h-[380px] card-hover">
+<img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=500&h=700&fit=crop" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700">
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+<div class="absolute top-3 right-3 bg-amber-400 text-psdark text-[11px] font-black px-2.5 py-1 rounded-full">لعبة العام</div>
+<div class="absolute bottom-0 p-5 text-right w-full">
+<p class="text-white/60 text-xs">PS5 Exclusive</p>
+<h3 class="font-black text-lg leading-tight">God of War Ragnarök</h3>
+<div class="flex items-center gap-2 mt-2">
+<span class="text-amber-400 text-xs"><i class="fas fa-star"></i> 9.6/10</span>
+<span class="text-white/40 text-xs">• أكشن • أسطوري</span>
+</div>
+</div>
+</div>
+<div class="group relative rounded-[20px] overflow-hidden h-[380px] card-hover">
+<img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=500&h=700&fit=crop" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700">
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+<div class="absolute top-3 right-3 bg-psblue text-white text-[11px] font-black px-2.5 py-1 rounded-full">حصري PS5</div>
+<div class="absolute bottom-0 p-5 text-right w-full">
+<p class="text-white/60 text-xs">Insomniac Games</p>
+<h3 class="font-black text-lg leading-tight">Marvel's Spider-Man 2</h3>
+<div class="flex items-center gap-2 mt-2">
+<span class="text-amber-400 text-xs"><i class="fas fa-star"></i> 9.4/10</span>
+<span class="text-white/40 text-xs">• عالم مفتوح</span>
+</div>
+</div>
+</div>
+<div class="group relative rounded-[20px] overflow-hidden h-[380px] card-hover">
+<img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=500&h=700&fit=crop" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-700">
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+<div class="absolute top-3 right-3 bg-emerald-500 text-white text-[11px] font-black px-2.5 py-1 rounded-full">4K 60FPS</div>
+<div class="absolute bottom-0 p-5 text-right w-full">
+<p class="text-white/60 text-xs">Guerrilla Games</p>
+<h3 class="font-black text-lg leading-tight">Horizon Forbidden West</h3>
+<div class="flex items-center gap-2 mt-2">
+<span class="text-amber-400 text-xs"><i class="fas fa-star"></i> 9.2/10</span>
+<span class="text-white/40 text-xs">• مغامرة</span>
+</div>
+</div>
+</div>
+<div class="group relative rounded-[20px] overflow-hidden h-[380px] card-hover bg-gradient-to-br from-psblue to-violet-600 flex flex-col justify-center p-6 text-center">
+<p class="text-white/80 text-sm font-bold">وأكثر من</p>
+<p class="text-6xl font-black my-2">+4000</p>
+<p class="text-white font-bold">لعبة في انتظارك</p>
+<p class="text-white/60 text-xs mt-3 leading-5">متوافقة مع PS4، ومع تحسينات مجانية لألعاب PS5. مكتبتك القديمة أصبحت أجمل.</p>
+<a href="#bundles" class="mt-6 bg-white text-psblue font-black py-3 rounded-full text-sm inline-block">استعرض كل الألعاب</a>
+<div class="flex justify-center gap-1 mt-4 opacity-60">
+<span class="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center text-xs"><i class="fab fa-playstation"></i></span>
+<span class="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center text-xs">PS4</span>
+<span class="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center text-xs">VR2</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-12 bg-[#0B1020] border-y border-white/5">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-3 gap-6 text-center">
+<div>
+<div class="w-12 h-12 mx-auto bg-emerald-500/15 rounded-2xl flex items-center justify-center mb-3"><i class="fas fa-users text-emerald-400"></i></div>
+<p class="text-3xl font-black">50M+</p>
+<p class="text-white/50 text-xs mt-1">لاعب حول العالم اختاروا PS5</p>
+</div>
+<div class="border-y md:border-y-0 md:border-x border-white/5 py-6 md:py-0">
+<div class="w-12 h-12 mx-auto bg-psblue/15 rounded-2xl flex items-center justify-center mb-3"><i class="fas fa-trophy text-psblue"></i></div>
+<p class="text-3xl font-black">+300</p>
+<p class="text-white/50 text-xs mt-1">جائزة لعبة العام لحصريات بلايستيشن</p>
+</div>
+<div>
+<div class="w-12 h-12 mx-auto bg-amber-500/15 rounded-2xl flex items-center justify-center mb-3"><i class="fas fa-bolt text-amber-400"></i></div>
+<p class="text-3xl font-black">0.8<span class="text-lg">ثانية</span></p>
+<p class="text-white/50 text-xs mt-1">متوسط وقت تحميل الألعاب</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="bundles" class="py-16 lg:py-20 bg-psdark">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-10">
+<span class="bg-white text-psdark text-xs font-black px-3 py-1 rounded-full">وفر حتى 4,500 جنيه</span>
+<h2 class="text-[28px] lg:text-[40px] font-black mt-4">اختر <span class="text-gradient">باقتك المثالية</span></h2>
+<p class="text-white/50 text-sm mt-2">كل الباقات تشمل ضمان سنتين، شحن مجاني، وتركيب مجاني عند التسليم.</p>
+</div>
+<div class="grid lg:grid-cols-3 gap-6 items-stretch max-w-6xl mx-auto">
+<div class="bg-white/[0.04] border border-white/10 rounded-[28px] p-6 lg:p-7 flex flex-col">
+<span class="text-white/50 text-xs font-bold tracking-widest">الأساسية</span>
+<h3 class="font-black text-xl mt-1">PS5 Digital Edition</h3>
+<p class="text-white/50 text-xs mt-1">بدون قارئ أقراص - للألعاب الرقمية</p>
+<div class="my-6">
+<span class="text-white/40 line-through text-sm">16,999 ج.م</span>
+<div class="flex items-baseline gap-2">
+<span class="text-3xl font-black">13,999</span><span class="text-sm font-bold">ج.م</span>
+<span class="bg-emerald-500 text-white text-xs font-black px-2 py-1 rounded-full">وفر 3,000</span>
+</div>
+</div>
+<img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=500&h=360&fit=crop" alt="PS5 Digital" class="w-full h-[180px] object-cover rounded-2xl mb-6">
+<ul class="space-y-3 text-sm flex-1">
+<li class="flex gap-2"><i class="fas fa-check text-emerald-400 mt-1 text-xs"></i><span>جهاز PS5 Digital + ذراع DualSense</span></li>
+<li class="flex gap-2"><i class="fas fa-check text-emerald-400 mt-1 text-xs"></i><span>اشتراك PS Plus شهر مجاناً</span></li>
+<li class="flex gap-2 text-white/30"><i class="fas fa-xmark mt-1 text-xs"></i><span>بدون ألعاب إضافية</span></li>
+</ul>
+<button onclick="openOrder('PS5 Digital Edition - 13,999 ج.م')" class="mt-6 w-full bg-white/10 hover:bg-white/15 border border-white/10 py-3.5 rounded-full font-bold transition">اختر هذه الباقة</button>
+<p class="text-center text-[11px] text-white/30 mt-3"><i class="fas fa-lock ml-1"></i> دفع آمن عند الاستلام</p>
+</div>
+<div class="bg-white rounded-[28px] p-6 lg:p-7 flex flex-col relative overflow-hidden text-psdark shadow-2xl scale-[1.02] border-2 border-psblue">
+<div class="absolute top-0 inset-x-0 bg-psblue text-white text-center text-xs font-black py-2 tracking-widest">الأكثر مبيعاً 🔥</div>
+<div class="pt-6">
+<span class="text-psblue text-xs font-black tracking-widest">الأفضل قيمة</span>
+<h3 class="font-black text-xl mt-1">باقة الأبطال</h3>
+<p class="text-gray-500 text-xs mt-1">الجهاز الكامل + لعبتين من اختيارك</p>
+<div class="my-6">
+<span class="text-gray-400 line-through text-sm">21,499 ج.م</span>
+<div class="flex items-baseline gap-2">
+<span class="text-3xl font-black">16,499</span><span class="text-sm font-bold">ج.م</span>
+<span class="bg-red-500 text-white text-xs font-black px-2 py-1 rounded-full">وفر 5,000</span>
+</div>
+<p class="text-emerald-600 text-xs font-bold mt-1">+ تقسيط حتى 12 شهر بدون فوائد</p>
+</div>
+<img src="https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?w=500&h=360&fit=crop" alt="PS5 Bundle" class="w-full h-[180px] object-cover rounded-2xl mb-6">
+<ul class="space-y-3 text-sm flex-1">
+<li class="flex gap-2"><i class="fas fa-check text-emerald-500 mt-1 text-xs"></i><span class="font-bold">PS5 بقرص + 2 ذراع DualSense</span></li>
+<li class="flex gap-2"><i class="fas fa-check text-emerald-500 mt-1 text-xs"></i><span>لعبتين هدية (Spider-Man 2 + FC 25)</span></li>
+<li class="flex gap-2"><i class="fas fa-check text-emerald-500 mt-1 text-xs"></i><span>اشتراك PS Plus لمدة 3 أشهر</span></li>
+<li class="flex gap-2"><i class="fas fa-check text-emerald-500 mt-1 text-xs"></i><span>حامل شحن + سماعة هدية</span></li>
+</ul>
+<button onclick="openOrder('باقة الأبطال - 16,499 ج.م')" class="mt-6 w-full bg-psblue hover:bg-blue-600 text-white py-4 rounded-full font-black shadow-lg shadow-blue-600/20 transition pulse-glow">اطلب الآن - باقي 7 فقط</button>
+<p class="text-center text-[11px] text-gray-400 mt-3">شحن مجاني خلال 24 ساعة • الدفع عند الاستلام</p>
+</div>
+</div>
+<div class="bg-white/[0.04] border border-white/10 rounded-[28px] p-6 lg:p-7 flex flex-col">
+<span class="text-amber-400 text-xs font-black tracking-widest">للمحترفين</span>
+<h3 class="font-black text-xl mt-1">باقة الأساطير Pro</h3>
+<p class="text-white/50 text-xs mt-1">كل شيء + PlayStation VR2</p>
+<div class="my-6">
+<span class="text-white/40 line-through text-sm">32,999 ج.م</span>
+<div class="flex items-baseline gap-2">
+<span class="text-3xl font-black">27,999</span><span class="text-sm font-bold">ج.م</span>
+<span class="bg-amber-500 text-psdark text-xs font-black px-2 py-1 rounded-full">وفر 5,000</span>
+</div>
+</div>
+<img src="https://images.unsplash.com/photo-1592840496694-26d035b52b48?w=500&h=360&fit=crop" alt="PS5 Pro Bundle" class="w-full h-[180px] object-cover rounded-2xl mb-6">
+<ul class="space-y-3 text-sm flex-1">
+<li class="flex gap-2"><i class="fas fa-check text-emerald-400 mt-1 text-xs"></i><span>كل مميزات باقة الأبطال</span></li>
+<li class="flex gap-2"><i class="fas fa-check text-emerald-400 mt-1 text-xs"></i><span>نظارة PS VR2 + لعبة Horizon VR</span></li>
+<li class="flex gap-2"><i class="fas fa-check text-emerald-400 mt-1 text-xs"></i><span>اشتراك PS Plus Premium سنة</span></li>
+</ul>
+<button onclick="openOrder('باقة الأساطير Pro - 27,999 ج.م')" class="mt-6 w-full bg-white text-psdark hover:bg-gray-100 py-3.5 rounded-full font-black transition">اختر باقة المحترفين</button>
+<p class="text-center text-[11px] text-white/30 mt-3">متوفر بالتقسيط مع جميع البنوك</p>
+</div>
+</div>
+<div class="flex flex-wrap justify-center gap-3 mt-8 text-xs">
+<span class="glass px-4 py-2 rounded-full flex items-center gap-2"><i class="fas fa-rotate-left text-emerald-400"></i> استرجاع مجاني خلال 14 يوم</span>
+<span class="glass px-4 py-2 rounded-full flex items-center gap-2"><i class="fas fa-award text-amber-400"></i> ضمان حقيقي سنتين</span>
+<span class="glass px-4 py-2 rounded-full flex items-center gap-2"><i class="fas fa-headset text-psblue"></i> دعم فني 24/7</span>
+</div>
+</div>
+</section>
+
+<section class="py-16 bg-[#0B1020]">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center mb-8">
+<h2 class="text-xl lg:text-2xl font-black">ماذا يقول <span class="text-psblue">أبطالنا</span> ؟</h2>
+<div class="hidden sm:flex items-center gap-2 text-xs bg-white/5 px-3 py-1.5 rounded-full">
+<span class="text-amber-400"><i class="fas fa-star"></i> 4.9/5</span>
+<span class="text-white/50">من 2,431 تقييم</span>
+</div>
+</div>
+<div class="grid md:grid-cols-3 gap-4">
+<div class="bg-white rounded-2xl p-6 text-psdark">
+<div class="flex gap-1 text-amber-400 text-xs mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+<p class="text-sm leading-6">"كنت متردد بينه وبين Xbox، لكن بعد ما جربت DualSense في Spider-Man 2... إحساس لا يوصف! الشحن وصل في نفس اليوم والدفع عند الاستلام طمني جداً."</p>
+<div class="flex items-center gap-3 mt-5">
+<img src="https://i.pravatar.cc/100?img=68" class="w-10 h-10 rounded-full">
+<div>
+<p class="font-black text-sm">أحمد سامح</p>
+<p class="text-xs text-gray-500">القاهرة • باقة الأبطال</p>
+</div>
+<span class="mr-auto text-emerald-500 text-xs font-bold"><i class="fas fa-circle-check ml-1"></i> عملية شراء موثقة</span>
+</div>
+</div>
+<div class="bg-white rounded-2xl p-6 text-psdark">
+<div class="flex gap-1 text-amber-400 text-xs mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+<p class="text-sm leading-6">"أفضل قرار! ابني طاير من الفرحة. الجهاز أصلي 100% بالسيريال والضمان مختوم. خدمة العملاء ردوا عليا واتساب في دقيقة."</p>
+<div class="flex items-center gap-3 mt-5">
+<img src="https://i.pravatar.cc/100?img=26" class="w-10 h-10 rounded-full">
+<div>
+<p class="font-black text-sm">سارة محمود</p>
+<p class="text-xs text-gray-500">الإسكندرية • PS5 Digital</p>
+</div>
+<span class="mr-auto text-emerald-500 text-xs font-bold"><i class="fas fa-circle-check ml-1"></i> عملية شراء موثقة</span>
+</div>
+</div>
+<div class="bg-white rounded-2xl p-6 text-psdark">
+<div class="flex gap-1 text-amber-400 text-xs mb-3"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+<p class="text-sm leading-6">"السرعة خيالية! لعبة God of War اللي كانت بتحمل في دقيقة على PS4 بقت 3 ثواني بس. والـ 4K على شاشتي الـ OLED حكاية تانية."</p>
+<div class="flex items-center gap-3 mt-5">
+<img src="https://i.pravatar.cc/100?img=53" class="w-10 h-10 rounded-full">
+<div>
+<p class="font-black text-sm">كريم عادل</p>
+<p class="text-xs text-gray-500">المنصورة • باقة الأساطير</p>
+</div>
+<span class="mr-auto text-emerald-500 text-xs font-bold"><i class="fas fa-circle-check ml-1"></i> عملية شراء موثقة</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="faq" class="py-16 bg-psdark">
+<div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="text-center text-[26px] font-black mb-2">أسئلة <span class="text-white/40">تهمك</span></h2>
+<p class="text-center text-white/50 text-sm mb-8">كل ما تريد معرفته قبل أن تنضم لعالم PlayStation 5</p>
+<div class="space-y-3" id="faqList">
+<div class="faq-item bg-white/[0.04] border border-white/10 rounded-2xl overflow-hidden">
+<button class="faq-btn w-full flex justify-between items-center p-5 text-right font-bold text-sm">
+<span>هل الجهاز أصلي ومعه ضمان؟</span><i class="fas fa-chevron-down text-white/40 transition-transform"></i>
+</button>
+<div class="faq-answer hidden px-5 pb-5 text-sm text-white/60 leading-6">نعم 100% أصلي بضمان الوكيل سنتين مختوم + فاتورة ضريبية. يمكنك التحقق من السيريال على موقع سوني الرسمي قبل الدفع. في حالة أي عيب مصنعي يتم الاستبدال فوراً مجاناً.</div>
+</div>
+<div class="faq-item bg-white/[0.04] border border-white/10 rounded-2xl overflow-hidden">
+<button class="faq-btn w-full flex justify-between items-center p-5 text-right font-bold text-sm">
+<span>ما الفرق بين النسخة العادية والـ Digital؟</span><i class="fas fa-chevron-down text-white/40 transition-transform"></i>
+</button>
+<div class="faq-answer hidden px-5 pb-5 text-sm text-white/60 leading-6">نفس القوة والأداء تماماً. الفرق الوحيد أن النسخة العادية بها قارئ أقراص Blu-ray لتشغيل الألعاب الفيزيائية والأفلام، بينما الـ Digital للألعاب الرقمية فقط من المتجر. إذا عندك أقراص PS4 اختر العادية.</div>
+</div>
+<div class="faq-item bg-white/[0.04] border border-white/10 rounded-2xl overflow-hidden">
+<button class="faq-btn w-full flex justify-between items-center p-5 text-right font-bold text-sm">
+<span>كيف يتم الدفع والشحن؟</span><i class="fas fa-chevron-down text-white/40 transition-transform"></i>
+</button>
+<div class="faq-answer hidden px-5 pb-5 text-sm text-white/60 leading-6">الدفع عند الاستلام نقداً أو بالفيزا مع المندوب. الشحن مجاني لجميع المحافظات خلال 24 ساعة (القاهرة والجيزة في نفس اليوم). يمكنك فتح الجهاز وتجربته قبل الدفع.</div>
+</div>
+<div class="faq-item bg-white/[0.04] border border-white/10 rounded-2xl overflow-hidden">
+<button class="faq-btn w-full flex justify-between items-center p-5 text-right font-bold text-sm">
+<span>هل ألعاب PS4 تعمل على PS5؟</span><i class="fas fa-chevron-down text-white/40 transition-transform"></i>
+</button>
+<div class="faq-answer hidden px-5 pb-5 text-sm text-white/60 leading-6">نعم! أكثر من 99% من ألعاب PS4 تعمل مباشرة على PS5 وبأداء أفضل (تحميل أسرع وفريمات أعلى). وكثير منها يحصل على تحديث مجاني لنسخة PS5 الـ 4K.</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-12 px-4">
+<div class="max-w-5xl mx-auto bg-gradient-to-br from-psblue via-blue-600 to-violet-600 rounded-[32px] p-8 lg:p-12 relative overflow-hidden text-center">
+<div class="absolute -top-20 -right-20 w-80 h-80 bg-white/10 rounded-full blur-3xl"></div>
+<div class="absolute -bottom-20 -left-20 w-80 h-80 bg-black/10 rounded-full blur-3xl"></div>
+<div class="relative">
+<span class="bg-white text-psblue text-xs font-black px-4 py-1.5 rounded-full">عرض اليوم الأخير</span>
+<h2 class="text-[28px] lg:text-[42px] font-black mt-4 leading-tight">لا تؤجل المتعة.<br>المستقبل ينتظرك الآن.</h2>
+<p class="text-white/80 text-sm mt-3 max-w-xl mx-auto">اطلب اليوم واحصل على شحن مجاني + لعبتين هدية + ضمان سنتين. الكمية محدودة جداً.</p>
+<div class="flex flex-col sm:flex-row gap-3 justify-center mt-8">
+<a href="#bundles" class="bg-white text-psblue px-8 py-4 rounded-full font-black flex items-center justify-center gap-2 hover:bg-gray-100 transition">
+<i class="fas fa-shopping-cart"></i>
+اطلب PlayStation 5 الآن
+</a>
+<a href="https://wa.me/201226949296" target="_blank" class="bg-black/20 backdrop-blur border border-white/20 text-white px-8 py-4 rounded-full font-bold flex items-center justify-center gap-2 hover:bg-black/30 transition">
+<i class="fab fa-whatsapp text-lg"></i>
+تحدث مع خبير الألعاب
+</a>
+</div>
+<p class="text-white/60 text-xs mt-4"><i class="fas fa-lock ml-1"></i> موقع آمن 100% • 12,847 عميل يثقون بنا</p>
+</div>
+</div>
+</section>
+
+<footer class="border-t border-white/5 py-10 bg-[#080C18]">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col lg:flex-row justify-between gap-8">
+<div>
+<div class="flex items-center gap-2">
+<i class="fab fa-playstation text-xl"></i>
+<span class="font-black tracking-widest">PlayStation 5</span>
+</div>
+<p class="text-white/40 text-xs mt-3 max-w-sm leading-5">متجر متخصص في أجهزة الألعاب الأصلية. نضمن لك أفضل سعر وضمان حقيقي وخدمة ما بعد البيع. لسنا تابعين لشركة Sony، موزع معتمد فقط.</p>
+</div>
+<div class="flex gap-10 text-sm">
+<div>
+<p class="font-black mb-3">روابط سريعة</p>
+<ul class="space-y-2 text-white/50 text-xs">
+<li><a href="#features" class="hover:text-white">المميزات</a></li>
+<li><a href="#bundles" class="hover:text-white">العروض</a></li>
+<li><a href="#faq" class="hover:text-white">الأسئلة الشائعة</a></li>
+</ul>
+</div>
+<div>
+<p class="font-black mb-3">تواصل معنا</p>
+<ul class="space-y-2 text-white/50 text-xs">
+<li><i class="fas fa-phone ml-2 text-psblue"></i> 01226949296</li>
+<li><i class="fas fa-location-dot ml-2 text-psblue"></i> شحن لجميع المحافظات</li>
+<li><i class="fas fa-clock ml-2 text-psblue"></i> يومياً 10ص - 10م</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-3 text-[11px] text-white/30">
+<p>© 2025 PlayStation 5 Store. جميع الحقوق محفوظة. PlayStation علامة تجارية مسجلة لشركة Sony Interactive Entertainment.</p>
+<div class="flex gap-3">
+<span class="w-8 h-6 bg-white/10 rounded flex items-center justify-center"><i class="fab fa-cc-visa"></i></span>
+<span class="w-8 h-6 bg-white/10 rounded flex items-center justify-center"><i class="fab fa-cc-mastercard"></i></span>
+<span class="w-8 h-6 bg-white/10 rounded flex items-center justify-center text-[10px] font-black">COD</span>
+</div>
+</div>
+</div>
+</footer>
+
+<div class="fixed bottom-5 left-5 z-50 flex flex-col gap-3">
+<a href="https://wa.me/201226949296" target="_blank" aria-label="تواصل واتساب" class="w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-[0_8px_24px_rgba(37,211,102,0.5)] hover:scale-110 transition duration-300 group relative">
+<i class="fab fa-whatsapp text-white text-[28px]"></i>
+<span class="absolute left-16 bg-white text-gray-800 text-xs font-bold px-3 py-1.5 rounded-full shadow-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition pointer-events-none hidden sm:block">تواصل واتساب</span>
+<span class="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full border-2 border-white animate-pulse"></span>
+</a>
+<a href="https://t.me/+201226949296" target="_blank" aria-label="تواصل تيليجرام" class="w-14 h-14 bg-[#229ED9] rounded-full flex items-center justify-center shadow-[0_8px_24px_rgba(34,158,217,0.5)] hover:scale-110 transition duration-300 group relative">
+<i class="fab fa-telegram text-white text-[26px] ml-0.5"></i>
+<span class="absolute left-16 bg-white text-gray-800 text-xs font-bold px-3 py-1.5 rounded-full shadow-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition pointer-events-none hidden sm:block">تواصل تيليجرام</span>
+</a>
+</div>
+
+<div id="orderModal" class="hidden fixed inset-0 z-[60] flex items-center justify-center p-4">
+<div onclick="closeOrder()" class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
+<div class="relative bg-white rounded-[24px] w-full max-w-md p-6 text-psdark max-h-[90vh] overflow-y-auto">
+<button onclick="closeOrder()" class="absolute left-4 top-4 w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center hover:bg-gray-200"><i class="fas fa-xmark text-sm"></i></button>
+<h3 class="font-black text-xl pr-2">إتمام الطلب</h3>
+<p id="selectedBundle" class="text-psblue font-bold text-sm mt-1"></p>
+<form id="orderForm" class="mt-6 space-y-4">
+<div>
+<label class="text-xs font-bold text-gray-600">الاسم بالكامل</label>
+<input required type="text" placeholder="مثال: أحمد محمد" class="w-full mt-1 bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-psblue focus:bg-white">
+</div>
+<div>
+<label class="text-xs font-bold text-gray-600">رقم الهاتف (واتساب)</label>
+<input required type="tel" placeholder="01xxxxxxxxx" class="w-full mt-1 bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-psblue focus:bg-white text-left" dir="ltr">
+</div>
+<div>
+<label class="text-xs font-bold text-gray-600">المحافظة</label>
+<select class="w-full mt-1 bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-psblue">
+<option>القاهرة</option><option>الجيزة</option><option>الإسكندرية</option><option>الدقهلية</option><option>محافظة أخرى</option>
+</select>
+</div>
+<div>
+<label class="text-xs font-bold text-gray-600">العنوان بالتفصيل</label>
+<input required type="text" placeholder="الشارع، المنطقة، علامة مميزة" class="w-full mt-1 bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-psblue">
+</div>
+<button type="submit" class="w-full bg-psblue hover:bg-blue-600 text-white py-4 rounded-full font-black mt-2 transition">تأكيد الطلب - الدفع عند الاستلام</button>
+<p class="text-center text-[11px] text-gray-400"><i class="fas fa-shield-halved ml-1 text-emerald-500"></i> بياناتك محمية 100% ولن نشاركها مع أي جهة</p>
+</form>
+</div>
+</div>
+
+<div id="videoModal" class="hidden fixed inset-0 z-[60] flex items-center justify-center p-4">
+<div onclick="document.getElementById('videoModal').classList.add('hidden')" class="absolute inset-0 bg-black/80 backdrop-blur"></div>
+<div class="relative w-full max-w-3xl aspect-video bg-black rounded-2xl overflow-hidden">
+<button onclick="document.getElementById('videoModal').classList.add('hidden')" class="absolute left-3 top-3 w-8 h-8 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-white z-10"><i class="fas fa-xmark"></i></button>
+<iframe class="w-full h-full" src="https://www.youtube.com/embed/RkC0l4iekYo?autoplay=0" title="PS5 Trailer" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="toast" class="hidden fixed bottom-24 left-1/2 -translate-x-1/2 bg-white text-psdark px-6 py-3 rounded-full shadow-2xl font-bold text-sm z-50 flex items-center gap-2">
+<i class="fas fa-check-circle text-emerald-500"></i>
+<span>تم استلام طلبك! سنتواصل معك خلال دقائق.</span>
+</div>
+
+<script>
+document.getElementById('menuBtn').addEventListener('click',()=>{document.getElementById('mobileMenu').classList.toggle('hidden')});
+document.querySelectorAll('.faq-btn').forEach(btn=>{
+ btn.addEventListener('click',()=>{
+  const item=btn.parentElement;
+  const ans=item.querySelector('.faq-answer');
+  const icon=btn.querySelector('i');
+  const isOpen=!ans.classList.contains('hidden');
+  document.querySelectorAll('.faq-answer').forEach(a=>a.classList.add('hidden'));
+  document.querySelectorAll('.faq-btn i').forEach(i=>i.style.transform='rotate(0deg)');
+  if(!isOpen){ans.classList.remove('hidden'); icon.style.transform='rotate(180deg)'}
+ })
+});
+function openOrder(bundle){
+ document.getElementById('selectedBundle').textContent=bundle;
+ document.getElementById('orderModal').classList.remove('hidden');
+ document.body.style.overflow='hidden';
+}
+function closeOrder(){
+ document.getElementById('orderModal').classList.add('hidden');
+ document.body.style.overflow='';
+}
+document.getElementById('orderForm').addEventListener('submit',e=>{
+ e.preventDefault();
+ closeOrder();
+ const t=document.getElementById('toast');
+ t.classList.remove('hidden');
+ setTimeout(()=>t.classList.add('hidden'),4000);
+ e.target.reset();
+});
+let h=11,m=42,s=18;
+setInterval(()=>{
+ s--; if(s<0){s=59; m--; if(m<0){m=59; h--; if(h<0)h=11}}
+ document.getElementById('hours').textContent=String(h).padStart(2,'0');
+ document.getElementById('minutes').textContent=String(m).padStart(2,'0');
+ document.getElementById('seconds').textContent=String(s).padStart(2,'0');
+},1000);
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+ a.addEventListener('click',e=>{
+  const id=a.getAttribute('href');
+  if(id.length>1){e.preventDefault(); document.querySelector(id)?.scrollIntoView({behavior:'smooth'}); document.getElementById('mobileMenu').classList.add('hidden')}
+ })
+});
+</script>
+</body>
+</html>
